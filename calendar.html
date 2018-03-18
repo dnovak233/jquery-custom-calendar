@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/mystyle.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="custom-calendar">
+                <div class="row">
+                    <div class="col-md-7">
+                        <h3><span id="month-year"></span></h3>
+                        <button id="previous-month"><</button><button id="today" >Today</button><button id="next-month">></button>
+                        <table>
+                            <thead>
+                                <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td id="date-start"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td id="date-end"></td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-5">
+                        <div id="event-list" class="col-md-12">
+                            <p class="m-0 p-3">
+                                Today's events
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="/assets/js/constructor.js"></script>
+    </body>
+</html>

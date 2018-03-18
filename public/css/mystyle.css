@@ -1,0 +1,61 @@
+#custom-calendar th, td {
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    border: 5px solid transparent;
+    border-collapse: collapse;
+    display: inline-block;
+    padding: 22px;
+}
+
+#custom-calendar td:hover{
+    border: 5px dashed red;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#custom-calendar .active{
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
+#custom-calendar .event-dot{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+}
+#custom-calendar .event-dot.i0{
+    transform: translate(-8px, 20px);
+}
+#custom-calendar .event-dot.i1{
+    transform: translate(6px, 12px);
+}
+#custom-calendar .event-dot.i3{
+    transform: translate(4px, -4px);
+}
+#custom-calendar .event-dot.i4{
+    transform: translate(-10px, -14px);
+}
+#custom-calendar .event-dot.i5{
+    transform: translate(-10px, -14px);
+}
+#custom-calendar .event-dot.i6{
+    transform: translate(-10px, -14px);
+}
+#custom-calendar .event-dot.i7{
+    transform: translate(-10px, -14px);
+}
+#custom-calendar .event-dot.i8{
+    transform: translate(-10px, -14px);
+}
+
+#custom-calendar .today {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.calendar-event {
+    display:none;
+}
